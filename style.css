@@ -850,6 +850,13 @@ button:active {
     font-family: "Quicksand", sans-serif;
 }
 
+.head2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
 
 .head2 p {
     width: 46%;
@@ -857,6 +864,8 @@ button:active {
     line-height: 30px;
     font-family: "Playwrite AU VIC";
     color: rgb(7, 7, 7);
+
+
 }
 
 .head2 h2 {
@@ -1225,7 +1234,7 @@ h1 {
 
 .form-container {
     display: flex;
-
+    justify-content: center;
 }
 
 .input-group {
