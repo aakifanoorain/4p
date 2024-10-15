@@ -854,12 +854,13 @@ input:checked+.slider:before {
 .plan1 {
     font-size: x-large;
     font-weight: 600;
+    font-family: "Quicksand", sans-serif;
 }
 
 .plan2 {
     font-size: x-large;
     font-weight: 600;
-
+    font-family: "Quicksand", sans-serif;
 }
 
 .flex .btn {
@@ -1163,7 +1164,8 @@ input:checked+.slider:before {
     height: 100%;
     object-fit: cover;
 }
-figure{
+
+figure {
     margin: 0;
 }
 
@@ -1182,8 +1184,8 @@ figure {
     padding: 0;
 }
 
-.head2 {
-    background-color: rgb(247, 223, 223);
+.full {
+    background-color: #edecec;
 }
 
 .grids {
@@ -1248,7 +1250,8 @@ figure {
     grid-column: 4 / 6;
     grid-row: 2 / 3;
 }
-.grid2{
+
+.grid2 {
     display: grid;
 }
 
@@ -1294,12 +1297,12 @@ h1 {
 }
 
 .card-box {
-   
+
     display: flex;
-   justify-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
- 
+
 }
 
 .card {
@@ -1534,7 +1537,6 @@ input[type="tel"]::placeholder {
 .contact-form {
     flex: 1;
     padding: 50px;
-    /* box-shadow: -3px 0 10px rgba(0, 0, 0, 0.1); */
     background-color: #f9f9f9;
 }
 
@@ -1696,8 +1698,8 @@ img.logos {
 .footer-column ul {
     list-style-type: none;
     margin-top: 25px;
-
     font-size: 21px;
+    padding: 0;
 }
 
 .footer-column ul li {
@@ -1834,15 +1836,16 @@ iframe {
     height: 100%;
     border: none;
 }
-.image-container{
+
+.image-container {
     display: grid;
-    margin:auto;
+    margin: auto;
     width: 80%;
-    grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(7,100px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 100px);
 }
 
-.img1{
+.img1 {
     grid-column-start: 2;
     grid-column-end: 6;
     width: 100%;
@@ -1850,7 +1853,8 @@ iframe {
     grid-row-start: 1;
     grid-row-end: 5;
 }
-.img2{
+
+.img2 {
     grid-column-start: 1;
     grid-column-end: 5;
     width: 100%;
@@ -1859,7 +1863,8 @@ iframe {
     grid-row-end: 7;
     z-index: 999;
 }
-.img3{
+
+.img3 {
     grid-column-start: 4;
     grid-column-end: 7;
     width: 100%;
