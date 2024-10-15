@@ -18,13 +18,40 @@
         margin: 10px 0;
     }
 
-    /* Checkbox checked shows the menu */
+    
     input[type="checkbox"]:checked~.nav-links {
         display: flex;
     }
 
     input[type="checkbox"] {
         display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        width: 35%;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width:300px)and (min-width:575px) {
+    body {
+        border: 2px solid red;
+    }
+
+    .view-btn {
+        font-size: 12px;
+    }
+
+    .flex-row {
+        flex-direction: column;
     }
 }
 
@@ -55,8 +82,7 @@
     }
 
     .btn {
-        /* width: 100px; */
-        /* height: 50px; */
+    
         font-size: 10px;
         padding-top: 6px;
     }
@@ -141,6 +167,10 @@
         line-height: 28px;
     }
 
+    .view-btn {
+        font-size: 9px;
+    }
+
     .imgs {
         display: flex;
 
@@ -152,37 +182,11 @@
         flex-direction: column;
     }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"] {
-        width: 70%;
-    }
 
     input[type="text"] {
         font-size: 10px;
     }
 
-    /* .input-group label i {
-
-        margin-right: 6rem;
-    } */
-
-    .input-group {
-
-        padding: 20px;
-
-        width: 260px;
-
-        margin: auto;
-
-    }
-
-    .input-group label {
-
-        position: absolute;
-        right: 76px;
-
-    }
 
     .content h2 {
 
@@ -387,4 +391,5 @@
 
         flex-wrap: wrap;
     }
+
 }
